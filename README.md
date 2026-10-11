@@ -5,7 +5,7 @@ lecture decks, their built PDFs, and the accompanying Jupyter lab notebooks, hom
 
 | | |
 |---|---|
-| **Courses** | 6 |
+| **Courses** | 5 |
 | **Lecture decks** | 79 (`.tex` sources + built PDFs) |
 | **Slides** | ~6,100 pages |
 | **Notebooks** | 306 (labs, homeworks, exams) |
@@ -23,11 +23,10 @@ Built PDFs live in `Lectures/<Course>/`; the LaTeX sources that produce them liv
 | Course | Decks | Pages | Slides | Notebooks |
 |---|---:|---:|---|---|
 | Computer Vision | 28 | 2,264 | [`Lectures/Computer_Vision`](Lectures/Computer_Vision) | [59](Labs/Computer_Vision) |
-| Natural Language Processing | 25 | 1,921 | [`Lectures/Natural_Language_Processing`](Lectures/Natural_Language_Processing) | [50](Labs/Natural_Language_Processing) |
+| Natural Language Processing | 30 | 2,349 | [`Lectures/Natural_Language_Processing`](Lectures/Natural_Language_Processing) | [58](Labs/Natural_Language_Processing) |
 | Reinforcement Learning | 10 | 710 | [`Lectures/Reinforcement_Learning`](Lectures/Reinforcement_Learning) | [36](Labs/Reinforcement_Learning) |
 | Introduction to AI | 10 | 696 | [`Lectures/Introduction_To_AI`](Lectures/Introduction_To_AI) | [24](Labs/Introduction_To_AI) |
 | Generative AI | 1 | 92 | [`Lectures/Generative_AI`](Lectures/Generative_AI) | — |
-| Advanced LLM Research | 5 | 428 | [`Lectures/Advanced_LLM_Research`](Lectures/Advanced_LLM_Research) | [8](Labs/Advanced_LLM_Research) |
 
 <details>
 <summary><b>Computer Vision</b> — 28 decks</summary>
@@ -66,7 +65,7 @@ Built PDFs live in `Lectures/<Course>/`; the LaTeX sources that produce them liv
 </details>
 
 <details>
-<summary><b>Natural Language Processing</b> — 25 decks</summary>
+<summary><b>Natural Language Processing</b> — 30 decks</summary>
 
 | # | Deck | Pages |
 |---|---|---:|
@@ -95,6 +94,11 @@ Built PDFs live in `Lectures/<Course>/`; the LaTeX sources that produce them liv
 | 23 | Evaluating Large Language Models | 88 |
 | 24 | Distributed Training and Serving | 81 |
 | 25 | Security and Enterprise NLP | 82 |
+| 26 | Next-Generation Foundation Model Architectures | 70 |
+| 27 | Advanced Reasoning and Test-Time Compute | 92 |
+| 28 | Advanced Alignment, Post-Training, and Synthetic Data | 87 |
+| 29 | Agentic Foundation Models and Memory Systems | 90 |
+| 30 | Emerging Research Frontiers in NLP | 89 |
 
 </details>
 
@@ -143,22 +147,6 @@ Built PDFs live in `Lectures/<Course>/`; the LaTeX sources that produce them liv
 
 </details>
 
-<details>
-<summary><b>Advanced LLM Research</b> — 5 decks</summary>
-
-A research-level follow-on to the NLP course. Each deck lists the NLP material it assumes on a
-"Prerequisite knowledge" line instead of re-teaching it.
-
-| # | Deck | Pages |
-|---|---|---:|
-| 01 | Next-Generation Foundation Model Architectures | 70 |
-| 02 | Advanced Reasoning and Test-Time Compute | 92 |
-| 03 | Advanced Alignment, Post-Training, and Synthetic Data | 87 |
-| 04 | Agentic Foundation Models and Memory Systems | 90 |
-| 05 | Emerging Research Frontiers in NLP | 89 |
-
-</details>
-
 ## Labs
 
 306 Jupyter notebooks. Course folders mirror the lecture tracks; the rest are cross-cutting.
@@ -169,8 +157,7 @@ A research-level follow-on to the NLP course. Each deck lists the NLP material i
 | [`Labs/Incomplete_Labs`](Labs/Incomplete_Labs) | 51 | Mixed — see the note below |
 | [`Labs/Homeworks`](Labs/Homeworks) | 54 | 27 assignment/solution pairs — CV 14, NLP 6, ML 5, RL 2 |
 | [`Labs/Reinforcement_Learning`](Labs/Reinforcement_Learning) | 36 | 15 exercise/solution pairs, in course order |
-| [`Labs/Natural_Language_Processing`](Labs/Natural_Language_Processing) | 50 | Classical text through agents and RAG |
-| [`Labs/Advanced_LLM_Research`](Labs/Advanced_LLM_Research) | 8 | Research-level LLM labs: delta-rule attention, MoE routing, test-time search, GRPO, tool use, Medusa, sparse autoencoders |
+| [`Labs/Natural_Language_Processing`](Labs/Natural_Language_Processing) | 58 | Classical text through agents and RAG, then research-level LLM labs (delta-rule attention, MoE routing, test-time search, GRPO, tool use, Medusa, sparse autoencoders) |
 | [`Labs/Introduction_To_AI`](Labs/Introduction_To_AI) | 24 | Classical ML and DL foundations |
 | [`Labs/Exams`](Labs/Exams) | 20 | 10 question/solution pairs across 2025 and 2026 cohorts |
 | [`Labs/Archive`](Labs/Archive) | 4 | Superseded material |
@@ -244,11 +231,10 @@ non-zero if any deck failed.
 ├── Labs/                     # 306 notebooks
 └── LaTeX/
     ├── Computer_Vision/            # 28 deck main files
-    ├── Natural_Language_Processing/#  25
+    ├── Natural_Language_Processing/#  30
     ├── Reinforcement_Learning/     #  10
     ├── Introduction_To_AI/         #  10
     ├── Generative_AI/              #   1
-    ├── Advanced_LLM_Research/      #   5
     ├── preamble/             # packages, commands, beamer_settings (4 files)
     ├── sections/             # 81 topic dirs, ~1,150 .tex — all slide content
     ├── images/               # 85 dirs, ~2,600 figures
