@@ -1,4 +1,4 @@
-##  (2026-10-09)
+##  (2026-10-11)
 
 
 ### Features
@@ -20,6 +20,7 @@
 * **Course:** add reproducibility section to CV 02 Practical Deep Learning ([e5fc7d5](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/e5fc7d5074d6fbf6b9ed444efe1f647c47636e17))
 * **Course:** add state-space models section to NLP 16 ([8cad64e](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/8cad64e1d9f2055cca632353c6c525600c57cfcb))
 * **Course:** Full rebuild of almost everything [minor] ([d943475](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/d943475cded22dc6740c5aa133c67ef9031a5b14))
+* **Course:** merge Advanced LLM Research into NLP as decks 26-30 ([744f760](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/744f76063cccf53d859aebcbe1f1c6b40f3b4a57))
 * **Course:** rename files and split an NLP deck ([342f985](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/342f98555e40c6ee49b6508331ab0c03a072dd5c))
 * **Course:** renumber Natural_Language_Processing decks 19-23 for Long-Context Modeling ([913cef7](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/913cef7af5cda18a73ba67ce606637f89e4bfa2b))
 * **Homeworks:** All ML Homeworks done ([b853257](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/b853257c5eb1ad82def3b713b6c54300deea3482))
@@ -125,7 +126,14 @@
 * **Lab:** Added NLP Labs ([d336758](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/d336758ba28f6eed622ef44f00e3ea76f5f165d1))
 * **Lab:** Removed all outputs ([9bf70fd](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/9bf70fdbee8306f156114ae783179fc080d51676))
 * **Lab:** Removed all outputs from solutions ([36cb579](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/36cb5799aa50675a0781dff236e9446fa4ce718c))
+* **Labs:** align the NLP Test-Time Compute Scaling lab with its results ([4b49e3e](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/4b49e3e6266c1b4fcf0af8f7ad217a551c27bbce))
+* **Labs:** correct the copying claims in the NLP Linear Attention lab ([5d4ed22](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/5d4ed22166d2141f13e46af181fadf048fd41d3a))
+* **Labs:** crop the KV cache by count in the NLP Medusa lab ([a85431f](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/a85431f4801528521631fbcf9433a6e7cee82e96))
+* **Labs:** describe the reward curves of the NLP GRPO lab as they move ([fb057c3](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/fb057c31a96eae988f1ed89d21244d44002e76ee))
 * **Labs:** Fixed lab issue with outliers ([bc36c98](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/bc36c98b501972ab34c4d4e544b2c5b9f9c40e08))
+* **Labs:** read the Tree-of-Thought value label correctly in the NLP Reasoning lab ([9f56cfd](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/9f56cfdbf551bd58637481f46489c01d8505e8d5))
+* **Labs:** return one value from the quadratic tool in the NLP Tool Use lab ([109147b](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/109147b1de2e0174095bd2d39a5e5b552d5e9b82))
+* **Labs:** show the steering range in the NLP Sparse Autoencoders lab ([67454ab](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/67454ab959227f99f7515af86fd29984a31db2f9))
 * **Labs:** stop tqdm from leaking DataLoader workers in four labs ([6fd1ab9](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/6fd1ab9a9d89955e7d1a82b4809f3d43ee592c14))
 * Modify and correct labs as per recommendations. ([57c1e99](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/57c1e99ab8d66a361408f50f5fc3784926cdcd10))
 * **nlp:** prompt securely for Gemini API key ([eb811af](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses/commit/eb811afe658fe985b900faecf23aa2411ea5da79))
