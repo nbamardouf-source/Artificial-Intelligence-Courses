@@ -33,7 +33,7 @@
         t_{pb} = (p-1)(t_f + t_b), \qquad t_{id} = m\,(t_f + t_b),
         \qquad \frac{t_{pb}}{t_{id}} = \boxed{\frac{p-1}{m}}.
       \]
-    \item[\textcolor{red}{$\blacktriangleright$}] GPipe's own paper (writing $K$ for stages and $M$ for micro-batches) states the same quantity as a fraction of \emph{total} time, $\dfrac{p-1}{m+p-1}$, and reports the overhead negligible when $m \geq 4p$. The two measure the same bubble against different baselines, ideal time and total time; quote whichever your audience expects.
+    \item[\textcolor{red}{$\blacktriangleright$}] GPipe's own paper (writing $K$ for stages and $M$ for micro-batches) states the same quantity as a fraction of \emph{total} time, $\dfrac{p-1}{m+p-1}$, and reports the overhead negligible when $m \geq 4p$. The two measure the same bubble against different baselines, ideal time and total time
     \item[\textcolor{red}{$\blacktriangleright$}] \textbf{Worked example.} $p = 8$ stages, $m = 64$ micro-batches: bubble $= 7/64 \approx 11\%$ of ideal time. Halve the micro-batches to $m = 32$ and it doubles to $22\%$.
     \item[\textcolor{red}{$\blacktriangleright$}] So you want $m \gg p$ --- and that is exactly where GPipe's memory problem appears. The all-forward-then-all-backward schedule keeps activations for \textbf{all $m$ micro-batches} alive at once, so shrinking the bubble inflates the activation memory linearly.
     \item[\textcolor{red}{$\blacktriangleright$}] Two constraints pulling in opposite directions through the same variable. Resolving that tension is what the next schedule does.
